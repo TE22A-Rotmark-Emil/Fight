@@ -12,12 +12,12 @@
             player.name = ReadLine();
             int IntTest;
             bool NumberTest = int.TryParse(player.name, out IntTest);
-            if (NumberTest == true || player.name.Length < 4 || player.name.Length > 17){
-                while (NumberTest == true || player.name.Length < 4 || player.name.Length > 17){
+            if (NumberTest == true || player.name.Length < 4 || player.name.Length > 16){
+                while (NumberTest == true || player.name.Length < 4 || player.name.Length > 16){
                     if (NumberTest == true && player.name.Length < 4){
                         WriteLine("Name cannot exclusively contain numbers or be less than 4 characters.");
                     }
-                    else if (NumberTest == true && player.name.Length > 17){
+                    else if (NumberTest == true && player.name.Length > 16){
                         WriteLine("Name cannot exclusively contain numbers or exceed 16 characters.");
                     }   
                     else if (NumberTest == true){
@@ -26,7 +26,7 @@
                     else if (player.name.Length < 4){
                         WriteLine("Name cannot be less than 4 characters.");
                     }
-                    else if (player.name.Length >= 16){
+                    else if (player.name.Length > 16){
                         WriteLine("Name cannot exceed 16 characters.");
                     }
                     player.name = ReadLine();
@@ -34,7 +34,7 @@
                 }
             }
             if (player.name is string){
-                WriteLine($"Welcome, '{}'");
+                WriteLine($"Welcome, '{player.name}'");
                 ReadLine();
             }
         }
