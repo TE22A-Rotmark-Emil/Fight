@@ -4,8 +4,11 @@
     using System.Runtime.InteropServices;
     using static System.Console;
     class StandardRPGRunState{
-        public static Enemy player = new Enemy();
+        public static Enemy player;
+        public static Enemy combatant = new Enemy();
         static void Main(string[] args){
+            Enemy.player = new Enemy();
+            player = Enemy.player;
             Start();
         }
         static void Start(){
@@ -18,7 +21,7 @@
                     if (NumberTest == true && player.name.Length < 4){
                         WriteLine("Name cannot contain numbers or be less than 4 characters.");
                     }
-                    if (NumberTest == true && player.name.Length > 16){
+                    else if (NumberTest == true && player.name.Length > 16){
                         WriteLine("Name cannot contain numbers or exceed 16 characters.");
                     }   
                     else if (NumberTest == true){
@@ -38,6 +41,7 @@
                 WriteLine($"Welcome, '{player.name}'");
                 ReadLine();
             }
+            WriteLine($"A {}");
         }
     }
 }
