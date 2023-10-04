@@ -1,0 +1,14 @@
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\bin\Debug\net7.0\Intense Fighting Real.exe
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\bin\Debug\net7.0\Intense Fighting Real.deps.json
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\bin\Debug\net7.0\Intense Fighting Real.runtimeconfig.json
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\bin\Debug\net7.0\Intense Fighting Real.dll
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\bin\Debug\net7.0\Intense Fighting Real.pdb
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\Intense Fighting Real.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\Intense Fighting Real.AssemblyInfoInputs.cache
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\Intense Fighting Real.AssemblyInfo.cs
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\Intense Fighting Real.csproj.CoreCompileInputs.cache
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\Intense Fighting Real.dll
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\refint\Intense Fighting Real.dll
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\Intense Fighting Real.pdb
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\Intense Fighting Real.genruntimeconfig.cache
+C:\Users\emil.rotmark\Documents\Game_Development_Projects\Fight\Intense Fighting Real\obj\Debug\net7.0\ref\Intense Fighting Real.dll
