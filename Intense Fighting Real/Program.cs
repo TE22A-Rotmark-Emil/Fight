@@ -12,23 +12,29 @@
             player.name = ReadLine();
             int IntTest;
             bool NumberTest = int.TryParse(player.name, out IntTest);
-            if (NumberTest == true || player.name.Length <= 3){
-                while (NumberTest == true || player.name.Length <= 3){
-                    if (NumberTest == true && player.name.Length > 3){
+            if (NumberTest == true || player.name.Length < 4 || player.name.Length > 17){
+                while (NumberTest == true || player.name.Length < 4 || player.name.Length > 17){
+                    if (NumberTest == true && player.name.Length < 4){
+                        WriteLine("Name cannot exclusively contain numbers or be less than 4 characters.");
+                    }
+                    else if (NumberTest == true && player.name.Length > 17){
+                        WriteLine("Name cannot exclusively contain numbers or exceed 16 characters.");
+                    }   
+                    else if (NumberTest == true){
                         WriteLine("Name cannot exclusively contain numbers.");
                     }
-                    else if (NumberTest == false && player.name.Length <= 3){
-                        WriteLine("Name cannot be shorter than or equal to 3 characters.");
+                    else if (player.name.Length < 4){
+                        WriteLine("Name cannot be less than 4 characters.");
                     }
-                    else if (NumberTest == true && player.name.Length <= 3){
-                        WriteLine("Name cannot contain numbers or be shorter than or equal to 3 characters.");
+                    else if (player.name.Length >= 16){
+                        WriteLine("Name cannot exceed 16 characters.");
                     }
                     player.name = ReadLine();
                     NumberTest = int.TryParse(player.name, out IntTest);
                 }
             }
             if (player.name is string){
-                WriteLine("right");
+                WriteLine($"Welcome, '{}'");
                 ReadLine();
             }
         }
